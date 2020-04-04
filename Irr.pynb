@@ -6,7 +6,7 @@ A = nx.to_numpy_matrix(g,dtype=float)
 
 S=A+np.identity(n,int)
 
-for i in range(2,n-1):
+for i in range(2,n):
     S+=np.linalg.matrix_power(A,i)
 
 if np.count_nonzero(S)==n*n:
