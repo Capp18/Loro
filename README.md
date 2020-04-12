@@ -11,7 +11,7 @@ N = S*n - S*r
 S*r = S*n - N
 r = n - N/S
 
-At this point we insert into this formula the following values of Fat-tree:
+At this point we insert into the obtained formula the following values of Fat-tree:
 N = (n^3)/4      ;      S = (5*n^2)/4      ;       L = (3/4)*n^3
 (with L = 3N)
 
